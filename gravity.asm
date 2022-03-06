@@ -74,7 +74,7 @@ mov rax, 0
 mov rdi, prompt ; print prompt
 call printf
 
-; Scanf block to take input
+; fgets block to take input
 mov rax, 0
 mov rdi, name
 mov rsi, INPUT_LEN ; read 256 btyes
