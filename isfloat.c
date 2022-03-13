@@ -1,3 +1,15 @@
+/*
+;********************************************************************************************
+; Author Information:                                                                       *
+; Name:         Victor V. Vu                                                                *
+; Email:        vuvictor@csu.fullerton.edu                                                  *    
+;                                                                                           *
+; Program Information:                                                                      *
+; Files: driver.cpp, gravity.asm, and isfloat.c                                             *
+; This File: isfloat.c                                                                      *
+; Description: Called on by gravity.asm to verify if input is a float.                      *
+;********************************************************************************************
+*/
 #include <ctype.h>
 #include <stdio.h>
 
