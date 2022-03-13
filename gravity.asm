@@ -1,3 +1,15 @@
+/*
+;********************************************************************************************
+; Author Information:                                                                       *
+; Name:         Victor V. Vu                                                                *
+; Email:        vuvictor@csu.fullerton.edu                                                  *    
+;                                                                                           *
+; Program Information:                                                                      *
+; Files: driver.cpp, gravity.asm, and isfloat.c                                             *
+; This File: gravity.asm                                                                    *
+; Description: Takes user input, verify float(call atof), and calculates gravity.           *
+;********************************************************************************************
+*/
 extern printf
 extern scanf
 extern fgets
