@@ -5,6 +5,7 @@
 ; Email:        vuvictor@csu.fullerton.edu                                                  *    
 ;                                                                                           *
 ; Program Information:                                                                      *
+; Program Name: Gravity Calculator                                                          *
 ; Files: driver.cpp, gravity.asm, and isfloat.c                                             *
 ; This File: isfloat.c                                                                      *
 ; Description: Called on by gravity.asm to verify if input is a float.                      *
