@@ -7,7 +7,7 @@
 ; Program Information:                                                                      *
 ; Files: driver.cpp, gravity.asm, and isfloat.c                                             *
 ; This File: driver.cpp                                                                     *
-; Description: Main file that outputs text and calls gravity function for computations.      *
+; Description: Main file that outputs text and calls gravity function for computations.     *
 ;********************************************************************************************
 */
 #include <cstdio>   // Required header for standard input/output
