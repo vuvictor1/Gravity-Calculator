@@ -4,6 +4,7 @@
 ; Name:         Victor V. Vu                                                                *
 ; Email:        vuvictor@csu.fullerton.edu                                                  *    
 ;                                                                                           *
+; Program Information:                                                                      *
 ;********************************************************************************************
 */
 #include <cstdio>   // Required header for standard input/output
