@@ -1,3 +1,9 @@
+;********************************************************************************************
+; Author Information:                                                                       *
+; Name:         Victor V. Vu                                                                *
+; Email:        vuvictor@csu.fullerton.edu                                                  *    
+;                                                                                           *
+;********************************************************************************************
 #include <cstdio>   // Required header for standard input/output
 #include <iomanip>  // Required for I/O manipulation
 #include <iostream> // Required header for cout/cin
