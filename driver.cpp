@@ -5,6 +5,7 @@
 ; Email:        vuvictor@csu.fullerton.edu                                                  *    
 ;                                                                                           *
 ; Program Information:                                                                      *
+; Program Name: Gravity Calculator                                                          *
 ; Files: driver.cpp, gravity.asm, and isfloat.c                                             *
 ; This File: driver.cpp                                                                     *
 ; Description: Main file that outputs text and calls gravity function for math computations.*
