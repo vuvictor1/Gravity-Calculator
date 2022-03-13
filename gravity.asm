@@ -1,4 +1,4 @@
-/*
+
 ;********************************************************************************************
 ; Author Information:                                                                       *
 ; Name:         Victor V. Vu                                                                *
@@ -9,7 +9,7 @@
 ; This File: gravity.asm                                                                    *
 ; Description: Takes user input, verify float(call atof), and calculates gravity.           *
 ;********************************************************************************************
-*/
+
 extern printf
 extern scanf
 extern fgets
