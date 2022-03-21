@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #Author: Victor V. Vu
+#Section: Cpsc 240-07
 #Descrption: BASH compilation file
 
 #Removes old files when we create a new compilation
