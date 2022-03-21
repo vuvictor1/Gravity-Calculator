@@ -2,7 +2,8 @@
 ;********************************************************************************************
 ; Author Information:                                                                       *
 ; Name:         Victor V. Vu                                                                *
-; Email:        vuvictor@csu.fullerton.edu                                                  *    
+; Email:        vuvictor@csu.fullerton.edu                                                  *
+; Section:      Cpsc 240-07                                                                 *  
 ;                                                                                           *
 ; Program Information:                                                                      *
 ; Program Name: Gravity Calculator                                                          *
