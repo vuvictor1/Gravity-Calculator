@@ -43,5 +43,5 @@ int isfloat(char user_input[]) {
     ++current_index;
   }
 
-  return (result && decimal_found);
+  return (result && decimal_found); // return confirmation if file is a float
 }
