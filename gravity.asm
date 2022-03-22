@@ -83,8 +83,9 @@ mov rax, 0 ; tells not to print float
 mov rdi, welcome ; passes intro
 call printf ; call function to print
 
+; print prompt
 mov rax, 0
-mov rdi, prompt ; print prompt
+mov rdi, prompt 
 call printf
 
 ; fgets block to take input
@@ -100,6 +101,7 @@ call strlen ; call strlen which returns length of string up to \0
 sub rax, 1 ; subtract 1 from rax to find \n
 mov byte [name + rax], 0 ; replace byte where \n is with \0
 
+; print block
 mov rax, 0
 mov rdi, job
 call printf
@@ -116,6 +118,7 @@ call strlen ; call strlen which returns length of string up to \0
 sub rax, 1 ; subtract 1 from rax to find \n
 mov byte [title + rax], 0 ; replace byte where \n is with \0
 
+; print title
 mov rax, 0
 mov rdi, job_output
 mov rsi, title
@@ -125,6 +128,7 @@ mov rax, 0
 mov rdi, text
 call printf
 
+; print prompt 
 mov rax, 0
 mov rdi, meter
 call printf
