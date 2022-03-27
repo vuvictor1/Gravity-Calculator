@@ -87,12 +87,12 @@ push       r14
 push       r15
 pushf
 
-; Printf blocks for text
+; Printf blocks for welcome message
 mov rax, 0 ; tells not to print float
 mov rdi, welcome ; passes intro
 call printf ; call function to print
 
-; print prompt
+; print out prompt for user input
 mov rax, 0
 mov rdi, prompt 
 call printf
@@ -110,7 +110,7 @@ call strlen ; call strlen which returns length of string up to \0
 sub rax, 1 ; subtract 1 from rax to find \n
 mov byte [name + rax], 0 ; replace byte where \n is with \0
 
-; print block
+; print out Job prompt
 mov rax, 0
 mov rdi, job
 call printf
@@ -127,7 +127,7 @@ call strlen ; call strlen which returns length of string up to \0
 sub rax, 1 ; subtract 1 from rax to find \n
 mov byte [title + rax], 0 ; replace byte where \n is with \0
 
-; print title
+; print job title
 mov rax, 0
 mov rdi, job_output
 mov rsi, title
@@ -137,7 +137,7 @@ mov rax, 0
 mov rdi, text
 call printf
 
-; print prompt 
+; print prompt asking for meter
 mov rax, 0
 mov rdi, meter
 call printf
@@ -147,6 +147,7 @@ mov rdi, string_format ; Takes height as a string
 mov rsi, user_input ; scans for height
 call scanf
 
+; pass user input into isfloat to check for float
 mov rax, 0
 mov rdi, user_input ; Passes user_input string into checker
 call isfloat
