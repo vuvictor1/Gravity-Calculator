@@ -1,9 +1,10 @@
 #!/bin/bash
 
-#Author: Victor V. Vu
-#Section: Cpsc 240-07
-#Descrption: BASH compilation file
 #;********************************************************************************************
+#; Author: Victor V. Vu                                                                      *
+#; Section: Cpsc 240-07                                                                      *
+#; Descrption: BASH compilation file                                                         *
+#;                                                                                           *
 #; Copyright (C) 2022 Victor V. Vu                                                           *
 #; This program is free software: you can redistribute it and/or modify it under the terms   * 
 #; of the GNU General Public License version 3 as published by the Free Software Foundation. * 
@@ -12,6 +13,9 @@
 #; See the GNU General Public License for more details. A copy of the GNU General Public     *
 #; License v3 is available here:  <https://www.gnu.org/licenses/>.                           *                                                                                          
 #;********************************************************************************************
+#; Programmed in Ubuntu-based Linux Platform.                                                *
+#; To run program, type in terminal: "sh r.sh"                                               *
+#*********************************************************************************************
 
 #Removes old files when we create a new compilation
 rm *.o
