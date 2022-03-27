@@ -21,7 +21,7 @@
 ;********************************************************************************************
 ; Programmed in Ubuntu-based Linux Platform.                                                *
 ; To run program, type in terminal: "sh r.sh"                                               *
-*********************************************************************************************
+;********************************************************************************************
 */
 #include <cstdio>   // Required header for standard input/output
 #include <iomanip>  // Required for I/O manipulation
