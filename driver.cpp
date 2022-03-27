@@ -11,7 +11,6 @@
 ; This File: driver.cpp                                                                     *
 ; Description: Main file that outputs text and calls gravity function for math computations.*
 ;********************************************************************************************
-;                                                                                           *
 ; Copyright (C) 2022 Victor V. Vu                                                           *
 ; This program is free software: you can redistribute it and/or modify it under the terms   * 
 ; of the GNU General Public License version 3 as published by the Free Software Foundation. * 
@@ -20,6 +19,9 @@
 ; See the GNU General Public License for more details. A copy of the GNU General Public     *
 ; License v3 is available here:  <https://www.gnu.org/licenses/>.                           *                                                                                          
 ;********************************************************************************************
+; Programmed in Ubuntu-based Linux Platform.                                                *
+; To run program, type in terminal: "sh r.sh"                                               *
+*********************************************************************************************
 */
 #include <cstdio>   // Required header for standard input/output
 #include <iomanip>  // Required for I/O manipulation
