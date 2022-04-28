@@ -1,12 +1,11 @@
 ;********************************************************************************************
 ; Author Information:                                                                       *
-; Name:         Victor V. Vu                                                                *
-; Email:        vuvictor@csu.fullerton.edu                                                  *
-; Section:      Cpsc 240-07                                                                 *  
+; Name: Victor V. Vu                                                                        *
+; Email: vuvictor@csu.fullerton.edu                                                         *
+; Section: Cpsc 240-07                                                                      *
 ;                                                                                           *
 ; Program Information:                                                                      *
 ; Program Name: Gravity Calculator                                                          *
-; Files: driver.cpp, gravity.asm, and isfloat.c                                             *
 ; This File: gravity.asm                                                                    *
 ; Description: Takes user input, verify float(call atof), and calculates gravity.           *
 ;********************************************************************************************
